@@ -1,4 +1,4 @@
-class Palbrador{
+export class Palbrador{
     constructor(){
         this._palabrasCustom = [];
         this._rutaDatosPalabras = "../../resources/db-palabras.txt";

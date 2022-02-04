@@ -1,9 +1,9 @@
-class Corrector{
+export class Corrector{
       constructor(palbraSecreta){
           this._palabraSecreta = palbraSecreta;
       }
 
-      set cambiarPalabraSecreta (unaPalabra){
+      cambiarPalabraSecreta (unaPalabra){
           this._palabraSecreta = unaPalabra;
       }
 
