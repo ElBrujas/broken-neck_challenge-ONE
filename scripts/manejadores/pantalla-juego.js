@@ -6,7 +6,6 @@ partidaActual.comenzarPartida();
 function actualizarTablero(){
     contadorStrikes.textContent = 6-partidaActual._contadorErrores;
     mostrador_palabra.value = palabraEnJuego.toString();
-    console.log(partidaActual.palabraSecreta);
     revisarEstadoPartida();
 }
 

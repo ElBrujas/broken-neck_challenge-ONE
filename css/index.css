@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+
+body{
+    margin: 0;
+}
+
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    background-image: url("../resources/img/BackGround.png");
+    background-size: cover;
+}
+
+.area-interactiva{
+    position:absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    width: 309px;
+    height: 435px;
+
+    background: #C4C4C4;
+    border-radius: 60px;
+
+    font-family: Metamorphous;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.menu button{
+    width: 215px;
+    height: 52px;
+    margin: 30px;
+
+    background: #063F73;
+    border-radius: 15px;
+
+    font-family: Metamorphous;
+    color: white;
+    font-size: medium;
+}

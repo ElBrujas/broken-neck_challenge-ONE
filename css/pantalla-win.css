@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+
+body{
+    margin: 0;
+}
+
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    background-image: url("../resources/img/BackGround-YW.png");
+    background-size: cover;
+}
+
+.area-interactiva{
+    position:absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-navegacion{
+    background-color: #063F73;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+}
+
+.barra-navegacion a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    font-family: Metamorphous;
+}
