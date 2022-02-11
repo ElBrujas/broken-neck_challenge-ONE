@@ -1,7 +1,7 @@
 import { Corrector } from "./Corrector.js";
 import { Palbrador } from "./Palabrador.js";
 
-class Partida{
+export class Partida{
     constructor(){
         this._palabraSecreta = "";
         this._contadorErrores = 0;
@@ -15,8 +15,6 @@ class Partida{
     _actualizarEstado(){
         if(this._contadorErrores == 6) this._estadoPartida = -1;
         if(this._aciertos.length == this._palabraSecreta.length) this._estadoPartida = 1;
-        console.log(this._estadoPartida);
-        console.log(this._aciertos);
     }
 
     comenzarPartida(){
@@ -62,6 +60,5 @@ class Partida{
         if(this._unCorrector.comprobarPalabra(unaPalabra)) this._estadoPartida = 1;
         else this._estadoPartida = -1;
         this._actualizarEstado();
-        console.log(this._palabraSecreta);
     }
 }

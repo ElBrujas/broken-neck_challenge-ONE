@@ -1,7 +1,7 @@
 export class Palbrador{
     constructor(){
         this._palabrasCustom = [];
-        this._rutaDatosPalabras = "../../resources/db-palabras.txt";
+        this._rutaDatosPalabras = "../resources/db-palabras.txt";
     }
 
     _obtenerListaPalabras(unaRuta){
